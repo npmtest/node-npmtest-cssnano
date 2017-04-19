@@ -1,7 +1,10 @@
-# test coverage for  [cssnano (v3.10.0)](https://github.com/ben-eb/cssnano)  [![npm package](https://img.shields.io/npm/v/npmtest-cssnano.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-cssnano) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-cssnano.svg)](https://travis-ci.org/npmtest/node-npmtest-cssnano)
+# npmtest-cssnano
+
+#### test coverage for  [cssnano (v3.10.0)](https://github.com/ben-eb/cssnano)  [![npm package](https://img.shields.io/npm/v/npmtest-cssnano.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-cssnano) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-cssnano.svg)](https://travis-ci.org/npmtest/node-npmtest-cssnano)
+
 #### A modular minifier, built on top of the PostCSS ecosystem.
 
-[![NPM](https://nodei.co/npm/cssnano.png?downloads=true)](https://www.npmjs.com/package/cssnano)
+[![NPM](https://nodei.co/npm/cssnano.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/cssnano)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-cssnano/tree/alpha)|
 |--:|:--|
@@ -9,11 +12,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-cssnano/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-cssnano/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-cssnano/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-cssnano/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-cssnano/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-cssnano/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-cssnano/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-cssnano/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-cssnano/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-cssnano%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-cssnano/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-cssnano/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-cssnano/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-cssnano/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-cssnano%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-cssnano/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-cssnano/build/test-report.html](https://npmtest.github.io/node-npmtest-cssnano/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-cssnano/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-cssnano/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-cssnano/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-cssnano/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-cssnano/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-cssnano/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-cssnano/build/screenCapture.npmPackageListing.svg)
 
@@ -28,7 +37,6 @@
 {
     "author": {
         "name": "Ben Briggs",
-        "email": "beneb.info@gmail.com",
         "url": "http://beneb.info"
     },
     "ava": {
@@ -127,12 +135,10 @@
     "main": "dist/index.js",
     "maintainers": [
         {
-            "name": "beneb",
-            "email": "beneb.info@gmail.com"
+            "name": "beneb"
         },
         {
-            "name": "trysound",
-            "email": "trysound@yandex.ru"
+            "name": "trysound"
         }
     ],
     "name": "cssnano",
@@ -143,7 +149,6 @@
         ]
     },
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/ben-eb/cssnano.git"
