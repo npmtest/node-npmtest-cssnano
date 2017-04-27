@@ -1,6 +1,6 @@
 # npmtest-cssnano
 
-#### test coverage for  [cssnano (v3.10.0)](https://github.com/ben-eb/cssnano)  [![npm package](https://img.shields.io/npm/v/npmtest-cssnano.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-cssnano) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-cssnano.svg)](https://travis-ci.org/npmtest/node-npmtest-cssnano)
+#### basic test coverage for  [cssnano (v3.10.0)](https://github.com/ben-eb/cssnano)  [![npm package](https://img.shields.io/npm/v/npmtest-cssnano.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-cssnano) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-cssnano.svg)](https://travis-ci.org/npmtest/node-npmtest-cssnano)
 
 #### A modular minifier, built on top of the PostCSS ecosystem.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-cssnano/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-cssnano/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-cssnano/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-cssnano/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-cssnano/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-cssnano/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-cssnano/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-cssnano/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-cssnano/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-cssnano/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-cssnano/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-cssnano/build/coverage.html/index.html)
 
@@ -163,7 +163,8 @@
         "test-012": "nyc ava src/__tests__/*.js"
     },
     "tonicExampleFilename": "quickstart.js",
-    "version": "3.10.0"
+    "version": "3.10.0",
+    "bin": {}
 }
 ```
 
